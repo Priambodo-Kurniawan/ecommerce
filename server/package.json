@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce crud api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priambodo-Kurniawan/ecommerce.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Priambodo-Kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priambodo-Kurniawan/ecommerce/issues"
+  },
+  "homepage": "https://github.com/Priambodo-Kurniawan/ecommerce#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27",
+    "mongoose": "^4.10.4",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
+}

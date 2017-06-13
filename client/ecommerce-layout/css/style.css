@@ -1,0 +1,235 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.text-white {
+  color: #fff;
+}
+.row.equal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-inverse {
+  background-color: #232f3c;
+}
+.nav-transparent {
+  padding: 10px;
+  position: absolute;
+  z-index: 99;
+  margin: auto;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.nav-transparent .nav > li > a {
+  color: #fff;
+}
+.nav-transparent .nav > li > a:hover,
+.nav-transparent .nav > li > a:focus {
+  background-color: transparent;
+  font-weight: bold;
+}
+.navbar-brand {
+  padding: 5px 15px;
+}
+
+.carousel-inner .item {
+  max-height: 500px;
+  overflow: hidden;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, 0) 100%)
+}
+.carousel-text {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  color: white;
+}
+
+
+.image-wrapper {
+  max-height: 200px;
+  overflow: hidden;
+}
+.text-wrapper-absolute{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+
+.flex-product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.flex-product .item {
+  width: 25%;
+  padding: 10px;
+}
+.product-image-wrapper {
+  overflow: hidden;
+}
+.product-image-wrapper img {
+  width: 100%;
+}
+.add-cart {
+  transform: translateY(100%);
+  -webkit-transition: transform .3s linear;
+  transition: transform .3s linear;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.19);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.flex-product .panel:hover .add-cart {
+  transform: translateY(0);
+  -webkit-transition: transform .3s linear;
+  transition: transform .3s linear;
+}
+.add-cart a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+  color: white
+}
+.rating {
+  color: #ffd741;
+}
+
+.devider-image {
+  max-height: 340px;
+  overflow: hidden;
+}
+.devider-image img {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+.content-devider  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.product-carousel .carousel {
+    margin-bottom: 0;
+    padding: 0 0 30px 0;
+}
+/* The controlsy */
+.product-carousel .carousel-control {
+  height: 40px;
+  width: 40px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 120px;
+}
+.product-carousel .carousel-control.right {
+	right: -40px;
+}
+.product-carousel .carousel-control.left {
+  left: -40px;
+}
+/* The indicators */
+.product-carousel .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.product-carousel .carousel-indicators li {
+	background: #cecece;
+}
+.product-carousel .carousel-indicators .active {
+  background: #428bca;
+}
+
+
+.list-product {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.footer-product-carousel .cart {
+  font-size: 20px;
+}
+.card-list-product {
+  padding-right: 35px;
+  position: relative;
+  padding-top: 20px;
+}
+.footer-product-carousel {
+  position: absolute;
+  left: 15px;
+  right: 35px;
+  bottom: 10px;
+}
+
+
+.subscribe input {
+  width: 500px !important;
+}
+.subscribe-panel {
+  background-image: url('http://cdn.shopify.com/s/files/1/1337/2633/files/testimonial_bg_2048x2048.jpg?v=1490780994');
+  background-size: cover;
+  background-position: center;
+}
+.section-subcribe {
+  z-index: 999;
+  position: relative;
+}
+
+
+footer {
+  margin-top: -70px;
+}
+footer .footer-primary {
+  color: #fff;
+  background-color: #273443;
+  padding: 100px 0 70px;
+}
+footer .footer-secondary {
+  background-color: #232f3c;
+  color: rgba(255,255,255,0.6);
+  padding: 20px 0;
+}
+.instagram-wrapper {
+  width: 33.33%;
+  padding: 4px 3px;
+}
+.flex-list {
+  display: flex;
+  margin-bottom: 10px;
+}
+.flex-list i {
+  min-width: 30px;
+}
+
+.checkout {
+  top: -10px;
+}
+.checkout__order::before {
+  background: #232f3c;
+}
